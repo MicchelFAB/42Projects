@@ -7,3 +7,45 @@
 [submodule "42Porto-lvl_1_get_next_line/src"]
 	path = 42Porto-lvl_1_get_next_line/src
 	url = git@github.com:MicchelFAB/42Porto-lvl_1_get_next_line.git
+[submodule "42Porto-lvl_0_libft/src"]
+	path = 42Porto-lvl_0_libft/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_0_libft/
+[submodule "42Porto-lvl_1_ft_printf/src"]
+	path = 42Porto-lvl_1_ft_printf/src
+	url = git@github.com:MicchelFAB/42Porto_lvl_1_ft_printf.git
+[submodule "42Porto-lvl_2_minitalk/src"]
+	path = 42Porto-lvl_2_minitalk/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_2_minitalk.git
+[submodule "42Porto-lvl_2_push_swap/src"]
+	path = 42Porto-lvl_2_push_swap/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_2_push_swap.git
+[submodule "42Porto-lvl_2_so_long/src"]
+	path = 42Porto-lvl_2_so_long/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_2_so_long.git
+[submodule "42Porto-lvl_3_minishell/src"]
+	path = 42Porto-lvl_3_minishell/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_3_minishell.git
+[submodule "42Porto-lvl_3_philosophers/src"]
+	path = 42Porto-lvl_3_philosophers/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_3_philosophers.git
+[submodule "42Porto-lvl_4_CPP_Piscine/src"]
+	path = 42Porto-lvl_4_CPP_Piscine/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_4_CPP_Piscine.git
+[submodule "42Porto-lvl_4_miniRT/src"]
+	path = 42Porto-lvl_4_miniRT/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_4_miniRT.git
+[submodule "42Porto-lvl_4_netpractice/src"]
+	path = 42Porto-lvl_4_netpractice/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_4_netpractice.git
+[submodule "42Porto-lvl_5_CPP_Piscine/src"]
+	path = 42Porto-lvl_5_CPP_Piscine/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_5_CPP_Piscine.git
+[submodule "42Porto-lvl_5_Inception/src"]
+	path = 42Porto-lvl_5_Inception/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_5_Inception.git
+[submodule "42Porto-lvl_5_ft_irc/src"]
+	path = 42Porto-lvl_5_ft_irc/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_5_ft_irc.git
+[submodule "42Porto-lvl_6_Transcendence/src"]
+	path = 42Porto-lvl_6_Transcendence/src
+	url = git@github.com:MicchelFAB/42Porto-lvl_6_Transcendence.git
