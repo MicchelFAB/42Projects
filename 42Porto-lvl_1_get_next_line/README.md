@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://github.com/leogaudin/42_project_badges/raw/main/badges/get_next_line_bonus.webp" alt="get_next_line Badge">
+ <img src="https://github.com/leogaudin/42_project_badges/raw/main/badges/get_next_line_bonus.webp" alt="get_next_line Badge"></br>
  <img src="https://img.shields.io/badge/get_next_line-125%2F100-green?style=flat-square&color=green" alt="42 get_next_line Score" />
 </p>
 
