@@ -1,38 +1,74 @@
-# 42Porto Level 1 - ft_printf
+<p align="center">
+  <img src="https://github.com/leogaudin/42_project_badges/blob/main/badges/ft_printf.webp" alt="ft_printf"></br>
+  <img src="https://img.shields.io/badge/Ft_Printf-100%2F100-green?style=flat-square&color=green" alt="mamaral-'s 42 Ft_Printf Score" />
+</p>
 
-## Project Description
 
-This project is a custom implementation of the `printf` function. The goal is to recreate the functionality of the standard `printf` function in C, which allows formatted output to the standard output stream.
+# The ft_printf Project
 
-## Usage Instructions
+The **ft_printf** project is part of the 42 curriculum and its goal is to **reimplement the standard C `printf()` function from scratch**.  
+By doing so, you will learn how to handle *variadic functions*, how to manage output formatting, and how to ensure efficient memory usage.
 
-To compile the project, run the following command:
+Once completed, the lib `ft_printf()` become part of my **libft**, making it available for use in other projects.
 
-```
-make
-```
+---
 
-This will generate the `libftprintf.a` library file.
+## 📌 Project Overview
 
-To compile and run the project with one of the main test files, use the following command:
+I need to create a library named **`libftprintf.a`** containing the implementation of `ft_printf()` which replicates the behaviour of the standard `printf()` with a limited set of conversion specifiers.
 
-```
-cc -Wall -Werror -Wextra <main_file.c> libftprintf.a
-./a.out
-```
+The key challenge is **handling a variable number of arguments** while producing formatted output exactly as specified.
 
-Replace `<main_file.c>` with either `main.c` or `main2.c` depending on which test file you want to use.
+---
 
-## Supported Format Specifiers
+## 🛠️ Mandatory Conversion Specifiers
 
-The custom `printf` implementation supports the following format specifiers:
+Your `ft_printf()` must handle these conversions:
 
-- `%c`: Character
-- `%s`: String
-- `%p`: Pointer
-- `%d`: Decimal integer
-- `%i`: Integer
-- `%u`: Unsigned integer
-- `%x`: Hexadecimal (lowercase)
-- `%X`: Hexadecimal (uppercase)
-- `%%`: Percent sign
+| **Specifier** | **Description**                 |
+|:-------------:|---------------------------------|
+| `%c`          | Prints a single character       |
+| `%s`          | Prints a string                 |
+| `%p`          | Prints a pointer address        |
+| `%d` / `%i`   | Prints a signed integer         |
+| `%u`          | Prints an unsigned integer      |
+| `%x`          | Prints a hexadecimal (lowercase)|
+| `%X`          | Prints a hexadecimal (uppercase)|
+| `%%`          | Prints a percent sign           |
+
+---
+
+## ✨ Main Features
+
+- Use of **`stdarg.h`** to manage variadic arguments.
+- Reproduction of `printf`’s output formatting for the required specifiers.
+- **No memory leaks** — all allocated memory must be freed.
+- Fully compliant with the **42 Norm** coding style.
+
+---
+
+## 📂 Project Structure
+
+Your repository must include:
+
+- A `Makefile` with at least the rules: `NAME`, `all`, `clean`, `fclean`, `re`, and `bonus`.
+- All source (`.c`) and header (`.h`) files.
+
+---
+
+## ✅ Benefits of This Project
+
+- Improves understanding of **low-level C programming**.
+- Teaches how to use **variadic functions** effectively.
+- Reinforces **formatting and parsing logic**.
+- Adds a **reusable, custom printing function** for future projects.
+
+---
+
+## 📖 Conclusion
+
+The **ft_printf** is a moderately difficult but highly rewarding project.  
+By completing it, you will gain deeper skills in formatting, parsing, memory management, and reusable library design — all crucial for more complex projects ahead.
+
+---
+

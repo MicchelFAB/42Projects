@@ -54,8 +54,3 @@ The Libft project is an excellent opportunity to practice writing efficient and 
 ## Conclusion
 
 Overall, the Libft project is a crucial step in becoming a proficient programmer, as it helps students develop a strong foundation in C programming and gain experience in creating their own library of useful functions.
-
-
-<!-- Note to self: The password of 42Evals is your favorite 42 project but replace every 'u' with 'V' and every 'c' with 'C', then add the year 2023 because that was a good year 
-
-CVb3d2023 -->
